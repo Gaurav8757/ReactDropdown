@@ -2,7 +2,6 @@ import  { useState } from 'react';
 
 const Dropdown = () => {
     const [selected, setSelected] = useState('');
-
     const handleChange = (event) => {
         setSelected(event.target.value);
     };
