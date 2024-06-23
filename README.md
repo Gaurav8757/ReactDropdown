@@ -1,6 +1,28 @@
 # React Dropdown
+ 
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Gaurav8757/ReactDropdown.git
+    cd ReactDropdown
+    ```
 
-# Folder Structure
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Install Tailwind CSS:
+    ```bash
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
+    ```
+3. Run Dev & build Command:
+    ```bash
+    npm run dev
+    npm run build
+    ```
+    
+## Folder Structure
 reactdropsown/
 ├── public/
 │   └── title.png
