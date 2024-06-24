@@ -25,15 +25,14 @@
 ## Folder Structure
 reactdropsown/
 ├── public/
-│   └── title.png
+│   └── arrow.png
 ├── src/
 │   ├── components/
-│   │   └── Dropdown/
-│   │       ├── Dropdown.js
-│   │       └── Dropdown.css
-│   ├── App.js
-│   ├── index.js
-│   └── index.css
+│       └── Dropdown/
+│           ├── App.jsx
+│           ├── index.css
+│           └── main.jsx
+│   
 |
 ├── index.js
 ├── package.json

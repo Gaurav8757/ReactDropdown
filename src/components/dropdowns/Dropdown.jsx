@@ -9,7 +9,9 @@ const Dropdown = () => {
     return (
 
         <div className="flex flex-col items-start font-sans">
+            {/* Label */}
             <label htmlFor="dropdown" className="mb-2 text-gray-700">Should you use a dropdown?</label>
+            {/* Dropdown Menu */}
             <select
                 id="dropdown"
                 value={selected}
